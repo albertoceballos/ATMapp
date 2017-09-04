@@ -14,7 +14,7 @@ import javax.swing.*;
 
 public class Connectclientinformation {
     private static final String USERNAME="Admin";
-    private static final String PASSWORD="NOTHINGisTRUE";
+    private static final String PASSWORD="password";
     private static final String CONN_STRING="jdbc:mysql://localhost:3306/clientinformation?allowMultiQueries=true&autoReconnect=true&useSSL=false";
     
         public static Connection ConnectDB(){
